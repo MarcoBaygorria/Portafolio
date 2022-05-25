@@ -4,6 +4,7 @@
   "description": "Mi portafolio",
   "main": "index.html",
   "scripts": {
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,24 @@
   },
   "homepage": "https://github.com/MarcoBaygorria/Portafolio#readme",
   "dependencies": {
+    "css-loader": "^6.7.1",
     "eins-modal": "^2.2.2",
-    "normalize.css": "^8.0.1"
+    "from": "^0.1.7",
+    "html-loader": "^3.1.0",
+    "normalize.css": "^8.0.1",
+    "project": "^0.1.6",
+    "root": "^3.2.0",
+    "the": "^1.0.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-minimizer-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   }
 }
